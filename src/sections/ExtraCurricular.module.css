@@ -51,12 +51,13 @@
 
 .date {
   font-size: 14px;
-  color: #999;
+  color: #670833;
+  font-weight: 900;
 }
 
 .description {
   font-size: 15px;
-  color: #444;
+  color:    #d6336c;
   line-height: 1.6;
   margin-top: 8px;
 }

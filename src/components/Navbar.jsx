@@ -1,7 +1,7 @@
 import styles from './NavBar.module.css';
 import { Link } from 'react-scroll';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react'; 
+import { Menu, X } from 'lucide-react';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);

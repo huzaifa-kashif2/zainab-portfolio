@@ -33,7 +33,6 @@
 .text {
   position: relative;
   z-index: 2;
-  color: #333;
 }
 
 .text h1 {

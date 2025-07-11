@@ -1,17 +1,32 @@
 .experience {
   background: #fff8fb;
+  color: #d6336c; /* This makes all text inside pink by default */
 }
+
 .experience h2 {
   color: #d6336c;
 }
-.date {
+
+.experience .date {
   font-size: 14px;
-  color: #888;
+  color: #670833;
   margin-bottom: 10px;
+  font-weight: 900;
 }
-ul {
+
+.experience ul {
   margin-left: 20px;
 }
-li {
+
+.experience li {
   margin-bottom: 8px;
+  color: #d6336c;
+}
+
+.experience p {
+  color: #d6336c;
+}
+
+.experience h3 {
+  color: #cc397b;
 }
