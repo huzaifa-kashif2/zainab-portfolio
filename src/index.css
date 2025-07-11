@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: #FFF5F8;
+}
+section {
+  padding: 100px 20px;
+  position: relative;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  appearance: none;
+  z-index: 50;
+}
+progress::-webkit-progress-bar {
+  background: transparent;
+}
+progress::-webkit-progress-value {
+  background: #FF8DAA;
+}
+.section-separator {
+  height: 80px;
+  background-color: #ffffff;
+}

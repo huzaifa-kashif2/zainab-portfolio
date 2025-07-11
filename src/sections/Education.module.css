@@ -1,0 +1,16 @@
+.education {
+  background: #fff;
+}
+.education h2 {
+  color: #e85d8e;
+}
+.item {
+  margin-bottom: 20px;
+}
+.item h3 {
+  color: #cc397b;
+  margin-bottom: 4px;
+}
+.item p {
+  color: #555;
+}

@@ -1,0 +1,62 @@
+.extracurricular {
+  background: #fff0f6;
+  padding: 60px 20px;
+}
+
+.extracurricular h2 {
+  text-align: center;
+  color: #d6336c;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 4px 16px rgba(255, 182, 193, 0.3);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(204, 57, 123, 0.3);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: white;
+}
+
+.card h3 {
+  color: #cc397b;
+  font-size: 18px;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #999;
+}
+
+.description {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 8px;
+}

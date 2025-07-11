@@ -1,0 +1,39 @@
+.about {
+  background: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: #e85d8e;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #4a4a4a;
+  line-height: 1.6;
+  
+}
+
+.about-p,p {
+  background-color: #ffe3ec;
+  color: #993c5a;
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(204, 57, 123, 0.1);
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.about-p:hover,p {
+  transform: scale(1.01);
+}
+

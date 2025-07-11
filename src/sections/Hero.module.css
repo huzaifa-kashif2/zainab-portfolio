@@ -1,0 +1,131 @@
+.hero {
+  position: relative;
+  min-height: 90vh;
+  background: url('/girl-bg.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 245, 248, 0.75);
+  z-index: 0; 
+}
+
+.pfp {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px; 
+  border: 4px solid white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+}
+
+
+.text {
+  position: relative;
+  z-index: 2;
+  color: #333;
+}
+
+.text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #cc397b;
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.socials a {
+  transition: transform 0.2s ease;
+}
+
+.socials a:hover {
+  transform: scale(1.15);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.cta,
+.reach {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.cta {
+  background-color: #ff6699;
+}
+
+.reach {
+  background-color: #cc397b;
+}
+
+.cta:hover {
+  background-color: #ff3366;
+  transform: scale(1.05);
+}
+
+.reach:hover {
+  background-color: #a12a63;
+  transform: scale(1.05);
+}
+.remote {
+  font-size: 15px;
+  color: #cc397b;
+  margin-top: 5px;
+  background-color:rgba(255, 245, 248, 0.75);
+    
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 0 0;
+  margin-top: 20px;
+  transition: none;
+
+}
+.connectNote {
+  font-size: 15px;
+  color: #a12a63;
+  margin-top: 10px;
+  line-height: 1.6;
+  font-weight: 500;
+}

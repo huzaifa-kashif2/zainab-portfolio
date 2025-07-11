@@ -1,0 +1,14 @@
+.certifications {
+  background: #fff0f5;
+}
+.certifications h2 {
+  color: #e85d8e;
+}
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+li {
+  margin-bottom: 10px;
+  color: #444;
+}

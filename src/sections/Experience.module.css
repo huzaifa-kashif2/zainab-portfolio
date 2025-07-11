@@ -1,0 +1,17 @@
+.experience {
+  background: #fff8fb;
+}
+.experience h2 {
+  color: #d6336c;
+}
+.date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+ul {
+  margin-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
