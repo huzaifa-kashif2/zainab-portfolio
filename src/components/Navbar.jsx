@@ -13,6 +13,7 @@ export default function NavBar() {
     { name: 'About', to: 'about' },
     { name: 'Projects', to: 'projects' },
     { name: 'Experience', to: 'experience' },
+    { name: 'Technologies', to: 'technologies' },
     { name: 'Extra Curricular', to: 'extracurricular' },
     { name: 'Education', to: 'education' },
     { name: 'Certifications', to: 'certifications' },

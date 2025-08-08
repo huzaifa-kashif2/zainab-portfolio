@@ -8,6 +8,7 @@ import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import ExtraCurricular from "./sections/ExtraCurricular"; 
 import NavBar from "./components/Navbar";
+import Technologies from "./sections/Technologies";
 
 import "./App.css"; 
 export default function App() {
@@ -38,6 +39,9 @@ export default function App() {
       <div className="section-separator" />
 
       <Experience />
+      
+      <div className="section-separator" />
+      <Technologies/>
       <div className="section-separator" />
 
       <ExtraCurricular /> 
