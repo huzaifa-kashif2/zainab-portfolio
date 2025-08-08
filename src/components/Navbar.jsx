@@ -1,4 +1,4 @@
-import styles from './NavBar.module.css';
+import styles from './Navbar.module.css';
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
