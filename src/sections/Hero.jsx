@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import PFP from "../assets/pfp.jpg";
 import { Mail, MessageCircle, Phone } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll"; 
+import resume from "../assets/resume.pdf";
 
 export default function Hero() {
   return (
@@ -21,6 +22,7 @@ export default function Hero() {
           Software Engineer | Turning Complex Ideas into Seamless Solutions
         </p>
         <p className={styles.remote}>📍 Open to global remote opportunities</p>
+        
         <div className={styles.socials}>
           <a href="mailto:zainabasim980@gmail.com">
             <Mail size={28} color="#cc397b" />
@@ -46,7 +48,7 @@ export default function Hero() {
             offset={-60}
             className={styles.cta}
           >
-             View My Work ↓
+            View My Work ↓
           </ScrollLink>
 
           <ScrollLink
@@ -58,9 +60,15 @@ export default function Hero() {
           >
             ✉️ Let's Connect
           </ScrollLink>
-        </div>
-        
 
+          <a 
+            href={resume} 
+            download 
+            className={styles.resume}
+          >
+            📄 Download Resume
+          </a>
+        </div>
       </div>
     </motion.section>
   );

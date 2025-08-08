@@ -11,17 +11,25 @@ import NavBar from "./components/Navbar";
 import Technologies from "./sections/Technologies";
 
 import "./App.css"; 
+
 export default function App() {
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
       const total = document.body.scrollHeight - window.innerHeight;
-      setScrollProgress((window.scrollY / total) * 100);
+      const progress = (window.scrollY / total) * 100;
+      setScrollProgress(progress);
+      setShowScrollTop(window.scrollY > 300);
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <>
@@ -39,9 +47,9 @@ export default function App() {
       <div className="section-separator" />
 
       <Experience />
-      
       <div className="section-separator" />
-      <Technologies/>
+
+      <Technologies />
       <div className="section-separator" />
 
       <ExtraCurricular /> 
@@ -54,6 +62,12 @@ export default function App() {
       <div className="section-separator" />
 
       <Contact />
+
+      {showScrollTop && (
+        <button className="scroll-to-top" onClick={scrollToTop}>
+          ↑
+        </button>
+      )}
     </>
   );
 }
